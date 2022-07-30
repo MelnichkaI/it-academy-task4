@@ -5,7 +5,7 @@ h1:hover {
 }
 
 /* 2 */
-hr + input {
+input:not([type="email"]) {
   border: 1px solid yellowgreen;
 }
 
@@ -15,17 +15,17 @@ a:visited {
 }
 
 /* 4 */
-* {
+input:disabled {
   background-color: coral;
 }
 
 /* 5 */
-* {
+input:focus:not([type="text"]) {
   background-color: cyan;
 }
 
 /* 6 */
-* {
+input:checked {
   width: 30px;
   height: 30px;
 }
@@ -52,21 +52,21 @@ a:visited {
 }
 
 /* 7 */
-* {
+.parent > .child {
   border: 3px solid darkorchid;
 }
 
 /* 8 */
-* {
+.parent1 .child1, .inner1 {
   border: 3px solid darkorchid;
 }
 
 /* 9 */
-* {
+.title + p {
   color: forestgreen;
 }
 
 /* 10 */
-* {
+.title1 ~ p {
   color: fuchsia;
 }
