@@ -1,16 +1,16 @@
 /* 1 */
 
-* {
+h1:hover {
   color: red;
 }
 
 /* 2 */
-* {
+hr + input {
   border: 1px solid yellowgreen;
 }
 
 /* 3 */
-* {
+a:visited {
   color: lightgrey;
 }
 
